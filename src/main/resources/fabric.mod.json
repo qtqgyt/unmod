@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "unmod",
+  "version": "${version}",
+  "name": "TheUnmod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/cc/unmod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/unmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.felinenine94893.test0.unmod.client.TheUnmodClient"
+    ],
+    "main": [
+      "net.felinenine94893.test0.unmod.TheUnmod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
